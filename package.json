@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/kopt.js",
   "scripts": {
-    "build": "webpack --profile --color",
+    "build": "tsc",
     "test": "karma start --browsers $BROWSERS",
     "travis": "npm run build && npm run travis:test && npm run travis:lint",
     "travis:test": "karma start --single-run --browsers PhantomJS",

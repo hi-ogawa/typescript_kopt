@@ -1,5 +1,3 @@
-var webpackConfig = require('./webpack.config');
-
 module.exports = function (config) {
   config.set({
     // NOTE: choose browser from cli option
