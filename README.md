@@ -4,12 +4,14 @@
 
 Sub goal:
 
-- javascript library development with typescript, testing, linting
+- javascript library development with typescript, testing, linting, debugging
 
 # Development
 
 ```
 $ npm install
 $ node_modules/.bin/typings install
-$ npm start # run tsc/tslint/jasmine-node with watching mode
+$ npm start # run tsc, tslint, mocha (normal and debug), node-inspector from node-foreman
 ```
+
+Debugger is available at http://127.0.0.1:8080/debug?port=5858.
