@@ -4,11 +4,14 @@
   "description": "",
   "main": "dist/kopt.js",
   "scripts": {
-    "build": "tsc",
-    "test": "karma start --browsers $BROWSERS",
-    "travis": "npm run build && npm run travis:test && npm run travis:lint",
-    "travis:test": "karma start --single-run --browsers PhantomJS",
-    "travis:lint": "tslint -c tslint.json src/*"
+    "start":         "nf start",
+    "tsc":           "tsc",
+    "tsc:watch":     "tsc --watch",
+    "jasmine":       "jasmine-node ./build",
+    "jasmine:watch": "jasmine-node ./build --autotest",
+    "tslint":        "tslint -c tslint.json src/*",
+    "tslint:watch":  "watch 'tslint -c tslint.json src/*' src",
+    "travis":        "npm run tsc && npm run jasmine && npm run tslint"
   },
   "author": "Hiroshi Ogawa",
   "license": "ISC",
