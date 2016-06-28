@@ -6,7 +6,9 @@
   "scripts": {
     "build": "webpack --profile --color",
     "test": "karma start --browsers $BROWSERS",
-    "test:travis": "karma start --single-run --browsers PhantomJS"
+    "travis": "npm run build && npm run travis:test && npm run travis:lint",
+    "travis:test": "karma start --single-run --browsers PhantomJS",
+    "travis:lint": "tslint -c tslint.json src/*"
   },
   "author": "Hiroshi Ogawa",
   "license": "ISC",
