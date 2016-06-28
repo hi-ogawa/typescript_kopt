@@ -1,0 +1,31 @@
+{
+  "name": "kopt",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/kopt.js",
+  "scripts": {
+    "build": "webpack --profile --color",
+    "test": "karma start --browsers $BROWSERS",
+    "test:travis": "karma start --single-run --browsers PhantomJS"
+  },
+  "author": "Hiroshi Ogawa",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.0",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
