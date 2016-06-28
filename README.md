@@ -15,3 +15,9 @@ $ npm start # run tsc, tslint, mocha (normal and debug), node-inspector from nod
 ```
 
 Debugger is available at http://127.0.0.1:8080/debug?port=5858.
+
+# Release
+
+```
+$ npm run release
+```
