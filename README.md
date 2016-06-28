@@ -8,9 +8,13 @@ Sub goal:
 
 # Usage
 
+Install:
+
 ```
 $ npm install --save kopt
 ```
+
+Example:
 
 ```
 var Kopt = require('Kopt');
@@ -35,6 +39,15 @@ function f(u, v) {
 
 console.log(Kopt.two(Kopt.mkMatrix(vs, f)))
   // => [ 0, 1, 4, 6, 7, 8, 5, 3, 2, 0 ]
+```
+
+Type definition:
+
+```
+declare namespace Kopt {
+    function two(mtrx: number[][]) : number[];
+    function mkMatrix<T>(vs: T[], f: ((u: T, v: T) => number)) : number[][];
+}
 ```
 
 # Development
