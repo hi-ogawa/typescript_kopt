@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hi-ogawa/typescript_kopt.svg?branch=master)](https://travis-ci.org/hi-ogawa/typescript_kopt)
+
 # Kopt algorithm written in Typescript
 
 Sub goal:
