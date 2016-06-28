@@ -1,5 +1,6 @@
 import Kopt = require("./kopt");
-import { expect } from "chai";
+import Chai = require("chai");
+const expect = Chai.expect;
 
 describe("Kopt", () => {
     type Point = [number, number];
