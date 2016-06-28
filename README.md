@@ -2,7 +2,7 @@
 
 Sub goal:
 
-- javascript library development with typescript, webpack, karma testing
+- javascript library development with typescript, webpack, karma testing, linting
 
 # Development
 
