@@ -1,6 +1,6 @@
 {
   "globalDependencies": {
     "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
-    "lodash": "registry:dt/lodash#3.10.0+20160619033623"
+    "lodash": "github:DefinitelyTyped/DefinitelyTyped/lodash/lodash.d.ts#68187beb94cf85c2763e258849ea63ddcbf9ad03"
   }
 }
