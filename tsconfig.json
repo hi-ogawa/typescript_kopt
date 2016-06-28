@@ -9,6 +9,7 @@
     "files": [
         "./typings/index.d.ts",
         "./src/kopt.ts",
+        "./src/kopt.d.ts",
         "./src/kopt.spec.ts"
     ]
 }
