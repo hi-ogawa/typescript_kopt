@@ -1,7 +1,7 @@
 {
   "name": "kopt",
   "version": "0.1.2",
-  "description": "",
+  "description": "K-opt algorithm (currently k = 2)",
   "main": "dist/kopt.js",
   "scripts": {
     "start":             "nf start",
