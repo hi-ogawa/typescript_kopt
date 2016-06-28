@@ -1,4 +1,6 @@
 import Kopt = require("./kopt");
+import Chai = require("chai");
+const expect = Chai.expect;
 
 describe("Kopt", () => {
     type Point = [number, number];
@@ -18,12 +20,14 @@ describe("Kopt", () => {
 
     describe("two", () => {
         it("", () => {
-            expect(Kopt.two(Kopt.mkMatrix(vs, f))).toEqual([ 0, 1, 4, 6, 7, 8, 5, 3, 2, 0 ]);
+            expect(Kopt.two(Kopt.mkMatrix(vs, f))).to.deep.equal(
+                [ 0, 1, 4, 6, 7, 8, 5, 3, 2, 0 ]
+            );
         });
     });
     describe("mkMatrix", () => {
         it("", () => {
-            expect(Kopt.mkMatrix(vs, f).length).toEqual(9);
+            expect(Kopt.mkMatrix(vs, f).length).to.equal(9);
         });
     });
 });

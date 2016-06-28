@@ -4,17 +4,14 @@
 
 Sub goal:
 
-- javascript library development with typescript, webpack, karma testing, linting
+- javascript library development with typescript, testing, linting, debugging
 
 # Development
 
 ```
 $ npm install
 $ node_modules/.bin/typings install
-$ BROWSERS=Chrome npm test
+$ npm start # run tsc, tslint, mocha (normal and debug), node-inspector from node-foreman
 ```
 
-# Reference
-
-- typescript webpack setup
-  - https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+Debugger is available at http://127.0.0.1:8080/debug?port=5858.
