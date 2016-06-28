@@ -4,17 +4,12 @@
 
 Sub goal:
 
-- javascript library development with typescript, webpack, karma testing, linting
+- javascript library development with typescript, testing, linting
 
 # Development
 
 ```
 $ npm install
 $ node_modules/.bin/typings install
-$ BROWSERS=Chrome npm test
+$ npm start # run tsc/tslint/jasmine-node with watching mode
 ```
-
-# Reference
-
-- typescript webpack setup
-  - https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
