@@ -1,15 +1,15 @@
-import Kopt = require('./kopt');
+import Kopt = require("./kopt");
 
-describe('Kopt', () => {
-    describe('two', () => {
-        it('', () => {
+describe("Kopt", () => {
+    describe("two", () => {
+        it("", () => {
             expect(Kopt.two).toBeDefined();
         });
-    })
-    describe('mkMatrix', () => {
-        it('', () => {
+    });
+    describe("mkMatrix", () => {
+        it("", () => {
             type Point = [number, number];
-            let vs : Point[];
+            let vs: Point[];
                 vs = [ [0, 0]
                      , [1, 4]
                      , [2, 2]
@@ -20,9 +20,9 @@ describe('Kopt', () => {
                      , [8, 4]
                      , [9, 0]
                      ];
-            let f : (u : Point, v : Point) => number;
+            let f: (u: Point, v: Point) => number;
                 f = (u, v) => Math.sqrt(Math.pow(u[0] - v[0], 2) + Math.pow(u[1] - v[1], 2));
             expect(Kopt.mkMatrix(vs, f).length).toEqual(9);
-        })
-    })
+        });
+    });
 });

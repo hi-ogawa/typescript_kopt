@@ -1,8 +1,10 @@
+[![Build Status](https://travis-ci.org/hi-ogawa/typescript_kopt.svg?branch=master)](https://travis-ci.org/hi-ogawa/typescript_kopt)
+
 # Kopt algorithm written in Typescript
 
 Sub goal:
 
-- javascript library development with typescript, webpack, karma testing
+- javascript library development with typescript, webpack, karma testing, linting
 
 # Development
 

@@ -24,6 +24,9 @@ module.exports = function (config) {
       module: {
         loaders: [
           { test: /\.ts$/, loader: "ts-loader" }
+        ],
+        preLoaders: [
+          { test: /\.ts$/, loader: "tslint" }
         ]
       }
     },

@@ -9,10 +9,11 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.ts$/, loader: "ts-loader" }
+      { test: /\.ts$/, loader: "ts" }
     ],
     preLoaders: [
-      { test: /\.js$/, loader: "source-map-loader" }
+      { test: /\.js$/, loader: "source-map" },
+      { test: /\.ts$/, loader: "tslint" }
     ]
   }
 }
