@@ -16,6 +16,7 @@
   "author": "Hiroshi Ogawa",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^3.5.0",
     "foreman": "^1.4.1",
     "jasmine-core": "^2.4.1",
     "jasmine-node": "^1.14.5",
@@ -26,6 +27,8 @@
     "karma-phantomjs-launcher": "^1.0.1",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
+    "mocha": "^2.5.3",
+    "node-inspector": "^0.12.8",
     "source-map-loader": "^0.1.5",
     "ts-loader": "^0.8.2",
     "tslint": "^3.12.1",
