@@ -13,7 +13,8 @@
     "tslint":            "tslint -c tslint.json src/*",
     "tslint:watch":      "watch 'tslint -c tslint.json src/*' src",
     "inspector":         "node-inspector",
-    "travis":            "npm run tsc && npm run mocha && npm run tslint"
+    "travis":            "npm run tsc && npm run mocha && npm run tslint",
+    "release":           "tsc && cp build/kopt.js dist/kopt.js && npm publish"
   },
   "author": "Hiroshi Ogawa",
   "license": "ISC",
